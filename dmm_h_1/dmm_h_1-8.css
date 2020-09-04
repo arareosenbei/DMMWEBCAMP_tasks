@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 960px;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 50px 0;
+}
+
+.header-list div {
+  padding: 20px;
+  width: 100%;
+}
+
+.header-list div:nth-child(odd) {
+  background-color: #eee;
+}
+
+main {
+  margin: 0 auto 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main div {
+  width: 30%;
+  height: 200px;
+  margin: 0 5% 40px 0;
+  background-color: #ffd700;
+ 
+}
+
+main div:nth-child(4n+1) {
+  background-color: #ff8c00;
+}
+
+main div:nth-child(3n) {
+  margin-right: 0;
+}
+
+main div:nth-child(n+7) {
+  margin-bottom: 0;
+}
